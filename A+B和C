@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	long long a,b,c;
+	int n; int i=1;
+	cin>>n;
+	while(n--)
+	{
+		
+		cin>>a>>b>>c;
+		if(a+b>c)
+		cout<<"Case #"<<i<<": true"<<endl;
+		else
+		cout<<"Case #"<<i<<": false"<<endl;
+		i++;
+	}
+	
+ } 
